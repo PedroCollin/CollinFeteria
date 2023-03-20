@@ -1,0 +1,37 @@
+[
+    {
+      "nome": "Café Expresso",
+      "imagem": "images/cafe-expresso.jpg",
+      "ingredientes": "Café moído finamente e água quente.",
+      "preparo": "Coloque o café moído em uma xícara, adicione água quente e sirva."
+    },
+    {
+      "nome": "Café com Leite",
+      "imagem": "images/cafe-com-leite.jpg",
+      "ingredientes": "Café moído finamente, leite e açúcar a gosto.",
+      "preparo": "Prepare o café como de costume e adicione leite e açúcar a gosto."
+    },
+    {
+      "nome": "Capuccino",
+      "imagem": "images/capuccino.jpg",
+      "ingredientes": "Café moído finamente, leite vaporizado, açúcar a gosto e canela em pó.",
+      "preparo": "Prepare o café como de costume, adicione leite vaporizado, açúcar a gosto e finalize com canela em pó."
+    },
+    {
+      "nome": "Latte Macchiato",
+      "imagem": "images/latte-macchiato.jpg",
+      "ingredientes": "1 xícara de leite, 1/4 xícara de café expresso, 2 colheres de sopa de leite vaporizado",
+      "preparo": "1. Faça o café expresso e coloque-o em uma xícara alta.\n2. Aqueça o leite e vaporize-o até formar espuma.\n3. Despeje o leite quente sobre o café.\n4. Adicione a espuma de leite no topo."
+    },
+    {
+      "nome": "Mocha",
+      "imagem": "images/mocha.jpg",
+      "ingredientes": "1 xícara de leite, 1/4 xícara de café expresso, 2 colheres de sopa de calda de chocolate",
+      "preparo": "1. Faça o café expresso e coloque-o em uma xícara.\n2. Aqueça o leite e misture a calda de chocolate.\n3. Despeje o leite quente com a calda sobre o café.\n4. Adicione chantilly por cima, se desejar."
+    },
+    {
+      "nome": "Croissant",
+      "imagem": "images/croissant.jpg",
+      "ingredientes": "250g de farinha de trigo, 125ml de água, 25g de açúcar, 10g de sal, 20g de fermento biológico fresco, 250g de manteiga sem sal, 1 ovo batido para pincelar",
+      "preparo": "1. Em um recipiente grande, misture a farinha de trigo, o açúcar e o sal. Dissolva o fermento biológico fresco na água e adicione à mistura de farinha. Misture tudo até obter uma massa homogênea."    }
+  ]

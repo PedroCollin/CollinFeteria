@@ -1,0 +1,117 @@
+  /* fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+  
+  /* general styles */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+
+/* Estilo para a seção "Quem somos" */
+html {
+    scroll-behavior: smooth;
+  }
+
+.conteudo-quemsomos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: justify;
+}
+
+.quemsomos-imagem img:hover {
+    opacity: 0.7;
+  }
+
+.conteudo-quemsomos h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c2c2c;
+}
+
+.conteudo-quemsomos p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.quemsomos-imagem img {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.quemsomos-missao {
+    background-color: #f5f5f5;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.quemsomos-missao h2 {
+    font-size: 2rem;
+    color: #2c2c2c;
+    margin-bottom: 30px;
+}
+
+.quemsomos-missao p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.quemsomos-valores {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quemsomos-valores h2 {
+    font-size: 2rem;
+    color: #2c2c2c;
+    margin-bottom: 30px;
+}
+
+.quemsomos-valores ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.quemsomos-valores li {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+    flex-basis: calc(25% - 20px);
+    text-align: center;
+}
+
+.quemsomos-valores li:before {
+    content: "\2022";
+    color: #a27c53;
+    margin-right: 10px;
+}
+
+
+  section {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  section:nth-child(even) {
+    transform: translateY(50px);
+  }
+  
+  section:nth-child(odd) {
+    transform: translateY(-50px);
+  }
+  
+  section:hover {
+    transform: scale(1.1);
+  }

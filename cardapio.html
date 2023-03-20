@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/cardapio.css" />
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <title>My CoffeeShop</title>
+  </head>
+  <body>
+    <div class="content">
+      <div w3-include-html="styles/navbar.html"></div>
+      <script>
+        w3IncludeHTML();
+      </script>
+      <div class="conteudo-cardapio">
+        <h1> Bem vindo ao nosso cardápio!</h1>
+        <div class="cardapio">
+          <div class="items">
+            <h2>Bebidas</h2>
+            <ul id="drinks-list"></ul>
+          </div>
+          <div class="items">
+            <h2>Comidas</h2>
+            <ul id="foods-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/cardapio.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+  /* fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+  
+  /* general styles */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+
+.conteudo-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+    padding: 1.5rem;
+    background-color: #F2F2F2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+  }
+  
+  .conteudo-historia h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .conteudo-historia p {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    text-align: justify;
+    margin: 1.5rem 0;
+    color: #555555;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .conteudo-historia {
+      max-width: 80%;
+      margin: 3rem auto;
+      padding: 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .conteudo-historia {
+      max-width: 60%;
+    }
+  }
+  

@@ -1,0 +1,100 @@
+/* Corpo da página */
+
+  /* fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+  
+  /* general styles */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Cardápio */
+  
+  .conteudo-cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    border: 1px solid #8b6852;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .conteudo-cardapio h1 {
+    color: #8b6852;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+  
+  .cardapio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .items {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .items h2 {
+    color: #8b6852;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .items li{
+  margin: 10px 0;
+  }
+  
+  .items button {
+  background-color: #8b6852;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  }
+  
+  .items button:hover {
+  background-color: #6b4837;
+  }
+  
+  /* Rodapé */
+  
+  .footer {
+  background-color: #8b6852;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  }
+  
+  .footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  }
+  
+  .footer a:hover {
+  text-decoration: underline;
+  }
